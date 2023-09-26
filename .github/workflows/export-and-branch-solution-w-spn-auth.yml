@@ -48,9 +48,9 @@ jobs:
       # Export the solution from the artifact created by pipelines
       - name: download solution from artifact
         env:
-            CLIENT_ID: ${{secrets.CLIENT_ID}}   
-            TENANT_ID: ${{secrets.TENANT_ID}}   
-            CLIENT_SECRET: ${{secrets.CLIENT_SECRET}}
+            CLIENT_ID: e3a977f8-e7b0-47e9-b8e4-d7dace362419  
+            TENANT_ID: c0daba30-fba7-4669-a2fc-36142728b7e9  
+            CLIENT_SECRET: 1uY8Q~aavXmPJ3exIAQDTbDDhY.zAo3tw1R3ldq7
         shell: pwsh
         run: |
             $aadHost = "login.microsoftonline.com"
